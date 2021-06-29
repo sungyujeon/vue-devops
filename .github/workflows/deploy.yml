@@ -32,9 +32,6 @@ jobs:
       
       - name: Install dependencies
         uses: yarn install
-      
-      - name: Build page
-        run: yarn install
 
       - name: Build page
         run: yarn build
