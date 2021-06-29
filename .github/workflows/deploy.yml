@@ -31,7 +31,7 @@ jobs:
           node-version: 14.x
       
       - name: Install dependencies
-        uses: yarn install
+        run: yarn install
 
       - name: Build page
         run: yarn build
