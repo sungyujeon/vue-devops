@@ -8,6 +8,7 @@
     "predeploy": "vue-cli-service build",
     "deploy": "gh-pages -d dist",
     "clean": "gh-pages-clean",
+    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
