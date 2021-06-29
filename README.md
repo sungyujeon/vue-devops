@@ -78,8 +78,8 @@
 
     ```js
     // vue.config.js 파일 생성
-    module.exports = }
-    	publicPath: '/vue-devops/',
+    module.exports = {
+      publicPath: '/vue-devops/',
       outputDir: 'dist'
     }
     ```
